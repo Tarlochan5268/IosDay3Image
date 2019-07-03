@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84C6E98022CC16AF00DFF654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6E97F22CC16AF00DFF654 /* AppDelegate.swift */; };
-		84C6E98222CC16AF00DFF654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6E98122CC16AF00DFF654 /* ViewController.swift */; };
+		84C6E98222CC16AF00DFF654 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6E98122CC16AF00DFF654 /* firstViewController.swift */; };
 		84C6E98522CC16AF00DFF654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6E98322CC16AF00DFF654 /* Main.storyboard */; };
 		84C6E98722CC16AF00DFF654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C6E98622CC16AF00DFF654 /* Assets.xcassets */; };
 		84C6E98A22CC16AF00DFF654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6E98822CC16AF00DFF654 /* LaunchScreen.storyboard */; };
@@ -17,12 +17,15 @@
 		84C6E99922CC16E200DFF654 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6E99422CC16E200DFF654 /* home.png */; };
 		84C6E99A22CC16E200DFF654 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6E99522CC16E200DFF654 /* elephant.png */; };
 		84C6E99B22CC16E200DFF654 /* ice cream.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6E99622CC16E200DFF654 /* ice cream.png */; };
+		84C6E99D22CC2E9000DFF654 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6E99C22CC2E9000DFF654 /* secondViewController.swift */; };
+		84C6E99F22CC2EAD00DFF654 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6E99E22CC2EAC00DFF654 /* thirdViewController.swift */; };
+		84C6E9A122CC2EC700DFF654 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6E9A022CC2EC700DFF654 /* fourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84C6E97C22CC16AF00DFF654 /* IosDay3Image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosDay3Image.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C6E97F22CC16AF00DFF654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84C6E98122CC16AF00DFF654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C6E98122CC16AF00DFF654 /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		84C6E98422CC16AF00DFF654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84C6E98622CC16AF00DFF654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C6E98922CC16AF00DFF654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +35,9 @@
 		84C6E99422CC16E200DFF654 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		84C6E99522CC16E200DFF654 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
 		84C6E99622CC16E200DFF654 /* ice cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ice cream.png"; sourceTree = "<group>"; };
+		84C6E99C22CC2E9000DFF654 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		84C6E99E22CC2EAC00DFF654 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		84C6E9A022CC2EC700DFF654 /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +72,14 @@
 			children = (
 				84C6E99122CC16B400DFF654 /* Images */,
 				84C6E97F22CC16AF00DFF654 /* AppDelegate.swift */,
-				84C6E98122CC16AF00DFF654 /* ViewController.swift */,
+				84C6E98122CC16AF00DFF654 /* firstViewController.swift */,
 				84C6E98322CC16AF00DFF654 /* Main.storyboard */,
 				84C6E98622CC16AF00DFF654 /* Assets.xcassets */,
 				84C6E98822CC16AF00DFF654 /* LaunchScreen.storyboard */,
 				84C6E98B22CC16AF00DFF654 /* Info.plist */,
+				84C6E99C22CC2E9000DFF654 /* secondViewController.swift */,
+				84C6E99E22CC2EAC00DFF654 /* thirdViewController.swift */,
+				84C6E9A022CC2EC700DFF654 /* fourthViewController.swift */,
 			);
 			path = IosDay3Image;
 			sourceTree = "<group>";
@@ -163,7 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C6E98222CC16AF00DFF654 /* ViewController.swift in Sources */,
+				84C6E9A122CC2EC700DFF654 /* fourthViewController.swift in Sources */,
+				84C6E98222CC16AF00DFF654 /* firstViewController.swift in Sources */,
+				84C6E99D22CC2E9000DFF654 /* secondViewController.swift in Sources */,
+				84C6E99F22CC2EAD00DFF654 /* thirdViewController.swift in Sources */,
 				84C6E98022CC16AF00DFF654 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
